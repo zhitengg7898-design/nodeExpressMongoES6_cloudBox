@@ -1,0 +1,88 @@
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.stack-form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.stack-form label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.stack-form input,
+.stack-form select {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.65rem 0.8rem;
+  font-size: 0.95rem;
+}
+
+.stack-form input:focus,
+.stack-form select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+.result {
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.result p {
+  margin: 0.4rem 0;
+}
+
+.status-error {
+  color: #b91c1c;
+}
+
+.status-success {
+  color: #166534;
+}
+
+.hidden {
+  display: none;
+}

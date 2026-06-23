@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CloudBox - generate and use share codes"
+    />
+    <title>CloudBox - Share Files</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/share.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-logo">☁️ CloudBox</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="upload.html">Upload</a>
+        <a href="share.html" class="active">Share</a>
+      </div>
+    </nav>
+
+    <main class="container">
+      <h1 class="page-title">File Sharing & Access</h1>
+
+      <section class="card">
+        <h2>Generate Share Code</h2>
+        <form id="generateShareForm" class="stack-form">
+          <label for="fileSelect">Select uploaded file</label>
+          <select id="fileSelect" required>
+            <option value="">Loading files...</option>
+          </select>
+
+          <label for="expiresInHours">Expires in (hours)</label>
+          <input
+            type="number"
+            id="expiresInHours"
+            value="24"
+            min="1"
+            max="168"
+            required
+          />
+
+          <button type="submit" class="btn btn-primary">
+            Generate Share Code
+          </button>
+        </form>
+
+        <div id="generatedResult" class="result hidden"></div>
+      </section>
+
+      <section class="card">
+        <h2>Access Shared File</h2>
+        <form id="lookupForm" class="stack-form">
+          <label for="shareCodeInput">Share code</label>
+          <input
+            type="text"
+            id="shareCodeInput"
+            placeholder="Enter share code"
+            maxlength="32"
+            required
+          />
+          <button type="submit" class="btn btn-secondary">Check File</button>
+        </form>
+
+        <div id="lookupResult" class="result hidden"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>CloudBox ✦ CS5610 Web Development ✦ Northeastern University</p>
+    </footer>
+
+    <script type="module" src="js/share.js"></script>
+  </body>
+</html>

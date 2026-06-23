@@ -5,7 +5,9 @@
   "main": "backend.js",
   "type": "module",
   "scripts": {
+    "prestart": "docker compose up -d mongodb",
     "start": "node backend.js",
+    "predev": "docker compose up -d mongodb",
     "dev": "nodemon backend.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write .",
