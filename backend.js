@@ -1,9 +1,9 @@
-import express from "express";
-import dotenv from "dotenv";
-import path from "path";
-import { fileURLToPath } from "url";
-import filesRouter from "./backend/filesRoutes.js";
-import { connectDB } from "./backend/db.js";
+import express from 'express';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import filesRouter from './backend/filesRoutes.js';
+import { connectDB } from './backend/db.js';
 
 dotenv.config();
 
@@ -14,11 +14,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
-app.use(express.static("frontend"));
-app.use("/uploads", express.static("uploads"));
+app.use(express.static('frontend'));
+app.use('/uploads', express.static('uploads'));
 
 // Routes
-app.use("/api", filesRouter);
+app.use('/api', filesRouter);
 
 // Connect to DB and start server
 connectDB().then(() => {

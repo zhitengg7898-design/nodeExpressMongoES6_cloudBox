@@ -2,7 +2,7 @@
 
 > A web-based file sharing platform that allows users to upload files and generate unique share codes for instant file distribution. No account required for recipients.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-2563EB?style=for-the-badge)](https://cloudbox-app.onrender.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-2563EB?style=for-the-badge)](https://nodeexpressmongoes6-cloudbox.onrender.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/zhitengg7898-design/nodeExpressMongoES6_cloudBox)
 
 ---
@@ -38,7 +38,7 @@ CloudBox is a full-stack file sharing platform built with Node.js, Express, Mong
 
 ![CloudBox Screenshot](frontend/images/screenshot.png)
 
-> Live at: **https://cloudbox-app.onrender.com**
+> Live at: **https://nodeexpressmongoes6-cloudbox.onrender.com**
 
 ---
 
