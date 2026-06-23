@@ -36,7 +36,7 @@ Codes expire automatically (1–168 hours, default 24 h), so senders never have 
 | Frontend   | Vanilla JS (ES6 modules)|
 | Styling    | CSS3 (Grid + Flexbox)   |
 | File I/O   | Multer (disk storage)   |
-| Dev Env    | Docker Compose + Nodemon|
+| Dev Env    | Render + Nodemon|
 
 **Live demo:** https://nodeexpressmongoes6-cloudbox.onrender.com
 
@@ -258,7 +258,7 @@ The mockups below use ASCII art to represent the page layouts. Each section corr
 │                    [ Start Uploading ]                           │
 ├──────────────────────────────────────────────────────────────────┤
 │  FOOTER                                                          │
-│  © 2025 CloudBox                                                 │
+│  © 2026 CloudBox                                                 │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
