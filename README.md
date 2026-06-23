@@ -263,6 +263,13 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
+## 📋 Design Document
+
+The full design document including project description, user personas, user stories, and design mockups is available here:
+
+📄 [DESIGN.md](DESIGN.md)
+
+---
 <p align="center">
   Built by <strong>Smitkumar Jayendrakumar Velani</strong> and <strong>Zhiteng Guo</strong> &middot; CS5610 Web Development &middot; Northeastern University &middot; June 2026
 </p>
