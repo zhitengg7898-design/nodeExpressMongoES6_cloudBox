@@ -231,13 +231,23 @@ npm run format
 
 | Tool | Version | Usage |
 |------|---------|-------|
-| Claude | claude-sonnet-4-6 (Anthropic) | UI design assistance, README structure, code suggestions |
+| Claude | claude-sonnet-4-6 (Anthropic) | UI design, CSS styling, README structure, Design Document |
+
+**How it was used:**
+- **Home Page UI** — Claude helped design the home page layout including ticker animation, hero section, how-it-works steps, and features grid
+- **CSS Styling** — Claude assisted with CSS module files including responsive grid layouts and hover animations
+- **Upload Page** — Claude helped design the drag and drop upload zone, file cards, details modal, and custom delete confirmation modal
+- **Share Page** — Claude helped design the two-card layout for share code generation and file access
+- **README** — Claude helped structure the README with all required sections
+- **Design Document** — Claude assisted in writing user personas, user stories, and wireframe descriptions
 
 **What was NOT AI generated:**
-- Core backend logic (Express routes, MongoDB operations)
-- Database schema design
-- File upload implementation
+- MongoDB connection module and collection setup
+- Express REST API routes for files and share codes
+- File upload implementation using Multer
 - Share code generation algorithm
+- Seed script for 1000+ records
+- Render deployment configuration
 
 ---
 
