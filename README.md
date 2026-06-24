@@ -42,6 +42,12 @@ CloudBox is a full-stack file sharing platform built with Node.js, Express, Mong
 
 ---
 
+## 🎥 Demo Video
+
+📹 [Watch Demo on YouTube](https://youtu.be/ktV9su4Brd8?si=Py8eplLhxuu1IOKz)
+
+---
+
 ## 🗂️ Project Structure
 
 ```
@@ -248,12 +254,6 @@ npm run format
 - Share code generation algorithm
 - Seed script for 1000+ records
 - Render deployment configuration
-
----
-
-## 🎥 Demo Video
-
-📹 📹 [Watch Demo on YouTube](https://youtu.be/ktV9su4Brd8?si=Py8eplLhxuu1IOKz)
 
 ---
 
