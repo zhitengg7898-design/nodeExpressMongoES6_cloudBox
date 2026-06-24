@@ -253,7 +253,7 @@ npm run format
 
 ## 🎥 Demo Video
 
-📹 [Watch Demo on YouTube](#) ← Add link after recording
+📹 📹 [Watch Demo on YouTube](https://youtu.be/ktV9su4Brd8?si=Py8eplLhxuu1IOKz)
 
 ---
 
