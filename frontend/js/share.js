@@ -21,9 +21,17 @@ async function loadFiles(selectedFileId) {
   const files = await res.json();
 
   if (!Array.isArray(files) || files.length === 0) {
-    select.innerHTML = `<option value="">No files uploaded yet</option>`;
-    return;
-  }
+  select.innerHTML = `<option value="">No files uploaded yet</option>`;
+  select.disabled = true;
+
+  setResult(
+    document.getElementById('generatedResult'),
+    'No files uploaded yet. <a href="upload.html">Upload a file first</a>.',
+    'status-error'
+  );
+
+  return;
+}
 
   select.innerHTML = files
     .map((file) => {
